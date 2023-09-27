@@ -1,0 +1,42 @@
+*{
+    background-color: black;
+    color: white;
+    src: url(index.html);
+}
+.mt1{
+    text-align: center;
+    line-height: 50px;
+    background-color: lavender;
+    position: sticky;
+    top: 0;
+    color: rgba(37, 31, 31, 0.801);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .8s;
+}
+.mt1:hover{
+    background-color: peru;
+}
+.mt2{
+    columns: 3;
+font-family: 'Pacifico', cursive;
+font-family: 'REM', sans-serif;
+    column-gap: 280px;
+}
+.mi1{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+    margin-bottom: 200px;
+    background-image: url(img1.webp);
+    background-size: cover;
+}
+.mt3{
+    font-family: 'Pacifico', cursive;
+font-family: 'REM', sans-serif;
+text-align: center;
+color: black;
+font-size: 2em;
+line-height: 50px;
+background-color: lavender;
+}
